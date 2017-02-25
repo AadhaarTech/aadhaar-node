@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+    - "node"
+    - "6"
+    - "5"
+    - "4"
+deploy:
+  provider: npm
+  email: balamurali@live.com
+  api_key:
+    secure: Vh5AD6OiBCE142+u8iggh2BHrdwfAKzwkBXgviPj8OYkvnkTmZ9oNw6ASOCJYluokZviG/l6FuKDj9oePJvLS3VojplT21IMcGPloGdtSySYnrDDt3PuymDHHDTe1a9ZT8+TevMG7EEgcmRMmHTwZwWIl/BvcrJXfWFSGyolVt0NbWEJux5VcRUim2RnZNHhirNJ/XUB7T5txarpfexhJjrLD272BZ29WubJGvUGNPqAj5SJk2u1Esk/U22cJKNiRLwOvPLUBV1Abg/vnIRyluYb2OcxYXdgyZ8pEDWSYJAgkL/Fj6VA95oHmHr29IHIlbbDYHBVBIDw6JBZQHCGFGG1kINICkwol2ilIEy873imKh84N/7XHyLXyJwCx2iGjq2jNaT0ow9SckJ8nf1utUVby1RMwqX5wdTa7H0zIeTmxGilQht8h0srSDpkA37StxbzIiQ2Ts5tG3Hp1zOisv1pYEbTm9ZJ9qcMWTImHFe+qhOGz3YiAX0993Vglao+tC7gWIqpwuwEOrJlIYlXt4G71nUpcq6vpwgT2OpD1mcUnDdVunOJF7ca/UNjkInH1RMVvL9utsHYZS2wRpD83xnctqeJwhUd95Fx4PiLYg3xizL9loFnuC8UTJYccRCbtlCEA0AbWy6G4Fk6uwLSKLpQDK94wlKCWsjPcoovfLI=
+  on:
+    tags: true
+    repo: labwirehq/aadhaar-node
+cache:
+  yarn: true
